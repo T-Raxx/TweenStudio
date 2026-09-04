@@ -1,0 +1,9 @@
+{
+  "version": "2.4.5",
+  "benchmark": "6 x 1920x1080 layers, movement, Bend and Shake, 960x540 canvas, 90 frames",
+  "baselinePreviewFps": 4.360281304226608,
+  "medianPreviewFps": 68.13691492250676,
+  "previewSpeedup": 15.626724554780152,
+  "medianTimelineUpdatesPerSecond": 809.230987792301,
+  "runs": 3
+}

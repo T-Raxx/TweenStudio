@@ -1,0 +1,24 @@
+{
+  "product": "TweenStudio",
+  "version": "2.4.2",
+  "platform": "Windows x64",
+  "runtime": "Qt 6.11.1 MinGW 13.1.0",
+  "built": "2026-09-02T19:46:54.3943667+02:00",
+  "features": [
+    "OpenCut/Alight Motion UI",
+    "video layer import and frame cache",
+    "video audio synchronization",
+    "custom rotation center with green draggable handle",
+    "pivot overlay excluded from exports",
+    "movable and copyable keyframes",
+    "safe split and undo"
+  ],
+  "verification": {
+    "build": "PASS",
+    "selfTest": "PASS",
+    "videoImportTest": "PASS",
+    "pivotDragTest": "PASS",
+    "portableSmoke": "PASS"
+  },
+  "entrypoint": "TweenStudio.exe"
+}

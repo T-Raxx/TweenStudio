@@ -1,0 +1,263 @@
+{
+    "audio": "C:\\Users\\aulit\\Downloads\\AlightMotionPC\\TweenStudio\\test-assets\\ui-test.wav",
+    "backgroundColor": "#00ff00",
+    "beats": [
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4
+    ],
+    "duration": 10,
+    "fps": 30,
+    "height": 1080,
+    "layers": [
+        {
+            "bendKeys": [
+                {
+                    "ease": 0,
+                    "time": 0,
+                    "value": {
+                        "angle": 0,
+                        "before": 0,
+                        "origin": 3,
+                        "start": 0
+                    }
+                },
+                {
+                    "ease": 0,
+                    "time": 4,
+                    "value": {
+                        "angle": 48,
+                        "before": 0,
+                        "origin": 3,
+                        "start": 0
+                    }
+                }
+            ],
+            "blend": 0,
+            "blur": 0,
+            "brightness": 0,
+            "chromaColor": "#ff00ff00",
+            "chromaEnabled": false,
+            "chromaSoftness": 18,
+            "chromaTolerance": 35,
+            "contrast": 0,
+            "cropBottom": 0,
+            "cropLeft": 0,
+            "cropRight": 0,
+            "cropTop": 0,
+            "effects": [
+                {
+                    "enabled": true,
+                    "end": 4,
+                    "id": "ui-test-bend",
+                    "keys": [
+                        {
+                            "amount": 0,
+                            "detail": 100,
+                            "ease": 0,
+                            "mix": 100,
+                            "speed": 50,
+                            "time": 0
+                        },
+                        {
+                            "amount": 45,
+                            "detail": 100,
+                            "ease": 3,
+                            "mix": 100,
+                            "speed": 50,
+                            "time": 2.5
+                        },
+                        {
+                            "amount": 11.520000000000003,
+                            "detail": 100,
+                            "ease": 0,
+                            "mix": 100,
+                            "speed": 50,
+                            "time": 4
+                        }
+                    ],
+                    "kind": 0,
+                    "name": "Bend",
+                    "start": 0
+                }
+            ],
+            "end": 4,
+            "fadeIn": 0,
+            "fadeOut": 0,
+            "keys": [
+                {
+                    "ease": 0,
+                    "time": 0,
+                    "value": {
+                        "bendAngle": 0,
+                        "bendBefore": 0,
+                        "bendOrigin": 3,
+                        "bendStart": 0,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "skewX": 0,
+                        "skewY": 0,
+                        "sx": 0.32,
+                        "sy": 0.32,
+                        "x": 960,
+                        "y": 540
+                    }
+                },
+                {
+                    "ease": 0,
+                    "time": 4,
+                    "value": {
+                        "bendAngle": 0,
+                        "bendBefore": 0,
+                        "bendOrigin": 3,
+                        "bendStart": 0,
+                        "opacity": 1,
+                        "rotation": 12,
+                        "skewX": 0,
+                        "skewY": 0,
+                        "sx": 0.384,
+                        "sy": 0.384,
+                        "x": 1112,
+                        "y": 540
+                    }
+                }
+            ],
+            "locked": false,
+            "name": "TweenStudio logo A",
+            "path": "C:\\Users\\aulit\\Downloads\\ChatGPT Image Sep 1, 2026, 06_43_36 PM.png",
+            "saturation": 0,
+            "shadowBlur": 8,
+            "shadowColor": "#d2000000",
+            "shadowEnabled": false,
+            "shadowX": 18,
+            "shadowY": 18,
+            "sourceType": "image",
+            "start": 0,
+            "visible": true
+        },
+        {
+            "bendKeys": [
+                {
+                    "ease": 0,
+                    "time": 4,
+                    "value": {
+                        "angle": 48,
+                        "before": 0,
+                        "origin": 3,
+                        "start": 0
+                    }
+                },
+                {
+                    "ease": 3,
+                    "time": 5,
+                    "value": {
+                        "angle": 60,
+                        "before": 0,
+                        "origin": 3,
+                        "start": 0
+                    }
+                }
+            ],
+            "blend": 0,
+            "blur": 0,
+            "brightness": 0,
+            "chromaColor": "#ff00ff00",
+            "chromaEnabled": false,
+            "chromaSoftness": 18,
+            "chromaTolerance": 35,
+            "contrast": 0,
+            "cropBottom": 0,
+            "cropLeft": 0,
+            "cropRight": 0,
+            "cropTop": 0,
+            "effects": [
+                {
+                    "enabled": true,
+                    "end": 5,
+                    "id": "523b5055-62ed-417d-8354-83f943089667",
+                    "keys": [
+                        {
+                            "amount": 11.520000000000003,
+                            "detail": 100,
+                            "ease": 0,
+                            "mix": 100,
+                            "speed": 50,
+                            "time": 4
+                        },
+                        {
+                            "amount": 0,
+                            "detail": 100,
+                            "ease": 0,
+                            "mix": 100,
+                            "speed": 50,
+                            "time": 5
+                        }
+                    ],
+                    "kind": 0,
+                    "name": "Bend",
+                    "start": 4
+                }
+            ],
+            "end": 10,
+            "fadeIn": 0,
+            "fadeOut": 0,
+            "keys": [
+                {
+                    "ease": 0,
+                    "time": 4,
+                    "value": {
+                        "bendAngle": 0,
+                        "bendBefore": 0,
+                        "bendOrigin": 3,
+                        "bendStart": 0,
+                        "opacity": 1,
+                        "rotation": 12,
+                        "skewX": 0,
+                        "skewY": 0,
+                        "sx": 0.384,
+                        "sy": 0.384,
+                        "x": 1112,
+                        "y": 540
+                    }
+                },
+                {
+                    "ease": 3,
+                    "time": 5,
+                    "value": {
+                        "bendAngle": 0,
+                        "bendBefore": 0,
+                        "bendOrigin": 3,
+                        "bendStart": 0,
+                        "opacity": 1,
+                        "rotation": 15,
+                        "skewX": 0,
+                        "skewY": 0,
+                        "sx": 0.4,
+                        "sy": 0.4,
+                        "x": 1150,
+                        "y": 540
+                    }
+                }
+            ],
+            "locked": false,
+            "name": "TweenStudio logo B",
+            "path": "C:\\Users\\aulit\\Downloads\\ChatGPT Image Sep 1, 2026, 06_43_36 PM.png",
+            "saturation": 0,
+            "shadowBlur": 8,
+            "shadowColor": "#d2000000",
+            "shadowEnabled": false,
+            "shadowX": 18,
+            "shadowY": 18,
+            "sourceType": "image",
+            "start": 4,
+            "visible": true
+        }
+    ],
+    "version": 9,
+    "width": 1920
+}

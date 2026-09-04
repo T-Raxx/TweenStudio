@@ -1,0 +1,99 @@
+{
+  "version": 10,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2,
+  "backgroundColor": "#00FF00",
+  "audio": "C:\\Users\\aulit\\Downloads\\AlightMotionPC\\TweenStudio\\test-assets\\video-import-test.mp4",
+  "beats": [],
+  "layers": [
+    {
+      "name": "Video import test",
+      "path": "C:\\Users\\aulit\\Downloads\\AlightMotionPC\\TweenStudio\\test-assets\\video-import-test.mp4",
+      "sourceType": "video",
+      "visible": true,
+      "locked": false,
+      "start": 0,
+      "end": 2,
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "videoDuration": 2,
+      "videoFps": 30,
+      "videoFrameCount": 60,
+      "mediaOffset": 0,
+      "pivotEnabled": true,
+      "pivotX": 120,
+      "pivotY": 0,
+      "blend": 0,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "blur": 0,
+      "chromaEnabled": false,
+      "chromaColor": "#ff00ff00",
+      "chromaTolerance": 35,
+      "chromaSoftness": 18,
+      "shadowEnabled": false,
+      "shadowColor": "#d2000000",
+      "shadowX": 18,
+      "shadowY": 18,
+      "shadowBlur": 8,
+      "cropLeft": 0,
+      "cropTop": 0,
+      "cropRight": 0,
+      "cropBottom": 0,
+      "keys": [
+        {
+          "time": 0,
+          "ease": 0,
+          "value": {
+            "x": 960,
+            "y": 540,
+            "sx": 2.8,
+            "sy": 2.8,
+            "rotation": 35,
+            "opacity": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "bendAngle": 0,
+            "bendStart": 0,
+            "bendOrigin": 3,
+            "bendBefore": 0
+          }
+        },
+        {
+          "time": 2,
+          "ease": 0,
+          "value": {
+            "x": 960,
+            "y": 540,
+            "sx": 2.8,
+            "sy": 2.8,
+            "rotation": 35,
+            "opacity": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "bendAngle": 0,
+            "bendStart": 0,
+            "bendOrigin": 3,
+            "bendBefore": 0
+          }
+        }
+      ],
+      "bendKeys": [
+        {
+          "time": 0,
+          "ease": 0,
+          "value": {
+            "angle": 0,
+            "start": 0,
+            "origin": 3,
+            "before": 0
+          }
+        }
+      ],
+      "effects": []
+    }
+  ]
+}
