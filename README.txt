@@ -1,4 +1,4 @@
-TWEENSTUDIO 2.4.5
+TWEENSTUDIO 2.4.6
 =================
 
 Editor nativo de tweening para Windows con una interfaz sencilla inspirada en
@@ -19,8 +19,13 @@ Interfaz OpenCut completa con colores Alight Motion:
 - Calidad dinámica según capas simultáneas: conserva más detalle en la capa seleccionada y abarata las capas secundarias durante playback.
 - Bend usa una malla ligera durante reproducción y recupera alta precisión al pausar o exportar.
 - Los vídeos usan proxies JPEG de hasta 960 px en el reproductor; la exportación sigue leyendo los fotogramas completos.
-- Benchmark de estrés 2.4.5: mediana de 68,14 FPS con seis capas 1080p animadas y 809 actualizaciones/s del cabezal.
+- Benchmark de estrés: el modo --preview-benchmark mide tres rutas separadas —
+  previewFps (playback), pausedEditFps (preview en reposo, calidad completa) e
+  interactiveEditFps (mientras se edita). Las tres se escriben en el JSON de salida.
 - Sliders de efectos con actualización visual inmediata y sin crear keyframes automáticos.
+- Durante cualquier edición continua (arrastre en el reproductor, sliders o spins) el
+  reproductor usa el presupuesto de resolución reducido y restaura la calidad completa
+  110 ms después del último cambio.
 - Los diamantes del inspector son la única acción que crea keyframes nuevos.
 - Keyframes de movimiento, Bend y efectos arrastrables directamente en la timeline.
 - El easing de movimiento o Bend cambia al instante cuando el cabezal está sobre el keyframe; no requiere volver a pulsar añadir.
@@ -35,7 +40,10 @@ Interfaz OpenCut completa con colores Alight Motion:
 - Los vídeos generan una caché local de fotogramas para previsualización, efectos,
   división y exportación precisa; su audio se sincroniza si no hay otra pista.
 - Scrollbar y rueda vertical para acceder a todas las pistas, incluido el audio.
-- Caja de selección sobre el elemento visual con ocho tiradores y control de rotación.
+- Caja de selección con ocho tiradores que escalan y un asa superior que rota; se dibujan
+  a tamaño constante, sin deformarse con la escala de la capa.
+- Arrastrar, escalar o rotar en el reproductor desplaza la pista de keyframes completa:
+  nunca crea ni reescribe un keyframe suelto, sea cual sea la posición del cabezal.
 - Ctrl+rueda aplica zoom únicamente al panel bajo el puntero: timeline o reproductor.
 - Zoom horizontal de timeline con Ctrl+rueda o los botones +/-; Shift+rueda desplaza.
 - Ajuste magnético conmutable, Deshacer/Rehacer (Ctrl+Z/Ctrl+Y) y autosave a 1,5 s.
@@ -118,5 +126,11 @@ Ctrl+B: dividir solo la selección en el cabezal
 Ctrl+C / Ctrl+V: copiar y pegar el keyframe seleccionado
 Ctrl+Z / Ctrl+Y: deshacer y rehacer
 Ctrl+S: guardar proyecto
+
+Modos de diagnóstico:
+  --self-test                 suite de regresión completa (devuelve 0 si pasa)
+  --video-self-test <mp4>     importación de vídeo y caché de fotogramas
+  --preview-benchmark <json>  rendimiento de reproductor y timeline
+  --selection-shot <png>      captura offscreen de la caja de selección
 
 Runtime: Qt 6 y FFmpeg incluidos en la distribución portable.

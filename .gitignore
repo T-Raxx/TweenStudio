@@ -1,0 +1,36 @@
+# --- Build output -----------------------------------------------------------
+build/
+build-*/
+CMakeCache.txt
+CMakeFiles/
+*.obj
+*.o
+*.a
+
+# --- Distribution -----------------------------------------------------------
+# Portable payloads are ~275 MB each (Qt runtime + bundled FFmpeg). They are
+# produced by tools/build.bat + windeployqt and published as release archives,
+# never committed.
+dist/
+dist-*/
+release/
+*.zip
+
+# --- Bundled runtime --------------------------------------------------------
+# Qt, MinGW and FFmpeg binaries live next to the executable in a portable
+# build. They come from the Qt SDK and from the FFmpeg release build.
+*.dll
+*.exe
+
+# --- Third-party reference copies -------------------------------------------
+# references/ holds ~10.8k vendored files from OpenCut (MIT) and Concat
+# (MPL-2.0), kept locally for design comparison only. See
+# OPEN_SOURCE_REFERENCES.md for the upstream repositories and commits.
+references/
+
+# --- Local scratch ----------------------------------------------------------
+repro/
+test-results/ab-*.json
+test-results/timing-test.json
+test-results/dev-baseline.json
+nohup.out
